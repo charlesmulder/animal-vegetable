@@ -1,0 +1,34 @@
+{
+  "name": "animal-vegetable",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Animal rights quote generator",
+  "main": "dist/animal-vegetable.min.js",
+  "module": "dist/animal-vegetable.min.mjs",
+  "scripts": {
+    "test": "mocha",
+    "build": "rollup -c",
+    "watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesmulder/animal-vegetable.git"
+  },
+  "keywords": [
+    "animal",
+    "rights",
+    "quote",
+    "generator"
+  ],
+  "author": "Charles Mulder",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/charlesmulder/animal-vegetable/issues"
+  },
+  "homepage": "https://github.com/charlesmulder/animal-vegetable#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "rollup": "^2.71.1",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
